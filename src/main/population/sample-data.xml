@@ -115,4 +115,80 @@
 		</property>
 	</bean>
 
+	<!-- Inquiries' beans -->
+
+	<bean id="inquiry01" class="acme.entities.inquiries.Inquiry">
+		<property name="title" value="Sample Inquiry 01" />
+		<property name="creation" value="2018/10/02 11:35" />
+		<property name="deadline" value="2022/11/03 15:20" />
+		<property name="description" value="This is a description of a sample Inquiry" />
+		<property name="money" value="1000 EUR" />
+		<property name="contact" value="incubator1@acme.com" />
+	</bean>
+	
+	<bean id="inquiry02" class="acme.entities.inquiries.Inquiry">
+		<property name="title" value="Sample Inquiry 02" />
+		<property name="creation" value="2016/06/17 21:39" />
+		<property name="deadline" value="2024/05/08 10:26" />
+		<property name="description" value="This is a description of a sample Inquiry" />
+		<property name="money" value="1123 EUR" />
+		<property name="contact" value="incubator2@acme.com" />
+	</bean>
+	
+	<bean id="inquiry04" class="acme.entities.inquiries.Inquiry">
+		<property name="title" value="Sample Inquiry 04" />
+		<property name="creation" value="2014/12/20 16:58" />
+		<property name="deadline" value="2023/05/08 04:55" />
+		<property name="description" value="This is a description of a sample Inquiry" />
+		<property name="money" value="1842 EUR" />
+		<property name="contact" value="incubator2@acme.com" />
+	</bean>
+
+	<bean id="inquiry03" class="acme.entities.inquiries.Inquiry">
+		<property name="title" value="Sample Inquiry 03" />
+		<property name="creation" value="2014/12/14 18:00" />
+		<property name="deadline" value="2019/05/28 14:33" />
+		<property name="description" value="This is a description of a sample Inquiry" />
+		<property name="money" value="1842 EUR" />
+		<property name="contact" value="incubator3@acme.com" />
+	</bean>
+
+	<!-- Overtures' beans -->
+
+	<bean id="overture01" class="acme.entities.overtures.Overture">
+		<property name="title" value="Sample overture 01" />
+		<property name="creation" value="2018/10/02 11:35" />
+		<property name="deadline" value="2022/11/03 15:20" />
+		<property name="description" value="This is a description of a sample overture" />
+		<property name="money" value="1000 EUR" />
+		<property name="contact" value="incubator1@acme.com" />
+	</bean>
+	
+	<bean id="overture02" class="acme.entities.overtures.Overture">
+		<property name="title" value="Sample overture 02" />
+		<property name="creation" value="2016/06/17 21:39" />
+		<property name="deadline" value="2024/05/08 10:26" />
+		<property name="description" value="This is a description of a sample overture" />
+		<property name="money" value="1123 EUR" />
+		<property name="contact" value="incubator2@acme.com" />
+	</bean>
+	
+	<bean id="overture04" class="acme.entities.overtures.Overture">
+		<property name="title" value="Sample overture 04" />
+		<property name="creation" value="2014/12/20 16:58" />
+		<property name="deadline" value="2023/05/08 04:55" />
+		<property name="description" value="This is a description of a sample overture" />
+		<property name="money" value="1842 EUR" />
+		<property name="contact" value="incubator2@acme.com" />
+	</bean>
+
+	<bean id="overture03" class="acme.entities.overtures.Overture">
+		<property name="title" value="Sample overture 03" />
+		<property name="creation" value="2014/12/14 18:00" />
+		<property name="deadline" value="2019/05/28 14:33" />
+		<property name="description" value="This is a description of a sample overture" />
+		<property name="money" value="1842 EUR" />
+		<property name="contact" value="incubator3@acme.com" />
+	</bean>
+
 </beans>

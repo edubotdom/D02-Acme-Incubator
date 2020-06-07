@@ -40,6 +40,19 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `inquiry` (
+       `id` integer not null,
+        `version` integer not null,
+        `contact` varchar(255),
+        `creation` datetime(6),
+        `deadline` datetime(6),
+        `description` varchar(255),
+        `money_amount` double precision,
+        `money_currency` varchar(255),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `notice` (
        `id` integer not null,
         `version` integer not null,
@@ -48,6 +61,19 @@
         `deadline` datetime(6),
         `header` varchar(255),
         `related` varchar(255),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `overture` (
+       `id` integer not null,
+        `version` integer not null,
+        `contact` varchar(255),
+        `creation` datetime(6),
+        `deadline` datetime(6),
+        `description` varchar(255),
+        `money_amount` double precision,
+        `money_currency` varchar(255),
         `title` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;

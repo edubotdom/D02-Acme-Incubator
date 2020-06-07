@@ -47,6 +47,10 @@
 		<acme:menu-option code="master.menu.authenticated" access="hasRole('Authenticated')">
 			<!-- Notice links -->
 			<acme:menu-suboption code="master.menu.authenticated.listNotice" action="/authenticated/notice/list"/>
+			<!-- Inquiry links -->
+			<acme:menu-suboption code="master.menu.authenticated.listInquiry" action="/authenticated/inquiry/list"/>
+			<!-- Overture links -->
+			<acme:menu-suboption code="master.menu.authenticated.listOverture" action="/authenticated/overture/list"/>							
 		</acme:menu-option>
 
 	<acme:menu-right>

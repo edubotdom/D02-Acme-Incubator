@@ -56,6 +56,8 @@ master.menu.consumer.favourite-link = Favourite link
 
 master.menu.authenticated = Authenticated
 master.menu.authenticated.listNotice = List notices
+master.menu.authenticated.listInquiry = List inquiries
+master.menu.authenticated.listOverture = List overtures
 
 # master.menu.user-account ####################################################
 

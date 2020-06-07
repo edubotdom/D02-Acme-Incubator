@@ -334,7 +334,53 @@ Notice
 + creation: Date {NotNull, Past}
 + deadline: Date {NotNull}
 + body: String {NotBlank}
-+ related: String
++ related: String {URL}
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>420</x>
+      <y>371</y>
+      <w>238</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Inquiry
+--
++ title: String {NotBlank}
++ creation: Date {NotNull, Past}
++ deadline: Date {NotNull}
++ description: String {NotBlank}
++ money: Money {NotNull}
++ contact: String {NotBlank, Email}
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>672</x>
+      <y>371</y>
+      <w>238</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Overture
+--
++ title: String {NotBlank}
++ creation: Date {NotNull, Past}
++ deadline: Date {NotNull}
++ description: String {NotBlank}
++ money: Money {NotNull}
++ contact: String {NotBlank, Email}
 
 
 
