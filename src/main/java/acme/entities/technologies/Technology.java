@@ -1,18 +1,14 @@
 
-package acme.entities.inquiries;
-
-import java.util.Date;
+package acme.entities.technologies;
 
 import javax.persistence.Entity;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
-import javax.validation.Valid;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Past;
+import javax.validation.constraints.Pattern;
 
-import acme.framework.datatypes.Money;
+import org.hibernate.validator.constraints.Range;
+import org.hibernate.validator.constraints.URL;
+
 import acme.framework.entities.DomainEntity;
 import lombok.Getter;
 import lombok.Setter;
@@ -20,7 +16,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public class Inquiry extends DomainEntity {
+public class Technology extends DomainEntity {
 
 	// Serialisation identifier -----------------------------------
 
@@ -31,24 +27,28 @@ public class Inquiry extends DomainEntity {
 	@NotBlank
 	private String				title;
 
-	@Temporal(TemporalType.TIMESTAMP)
-	@Past
-	@NotNull
-	private Date				creation;
+	@NotBlank
+	private String				sector;
 
-	@Temporal(TemporalType.TIMESTAMP)
-	@NotNull
-	private Date				deadline;
+	@NotBlank
+	private String				inventor;
 
 	@NotBlank
 	private String				description;
 
-	@Valid
-	@NotNull
-	private Money				money;
+	@NotBlank
+	@URL
+	private String				website;
 
 	@NotBlank
 	@Email
 	private String				contact;
+
+	@NotBlank
+	@Pattern(regexp = "^(open-source)?(closed-source)?$")
+	private String				source;
+
+	@Range(min = -5, max = 5)
+	private Double				stars;
 
 }
