@@ -318,4 +318,27 @@ Botia_bulletin
 </panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>168</x>
+      <y>371</y>
+      <w>238</w>
+      <h>105</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Notice
+--
++ header: String {NotBlank}
++ title: String {NotBlank}
++ creation: Date {NotNull, Past}
++ deadline: Date {NotNull}
++ body: String {NotBlank}
++ related: String
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>

@@ -20,12 +20,17 @@
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.edubotdom-favourite-link" action="https://www.formula1.com/"/>
+			<!-- BotiaBulletin links -->
 			<acme:menu-suboption code="master.menu.anonymous.createBotiaBulletin" action="/anonymous/botia_bulletin/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.listBotiaBulletin" action="/anonymous/botia_bulletin/list"/>
+			<!-- Notice links -->
+			<acme:menu-suboption code="master.menu.anonymous.listNotice" action="/anonymous/notice/list"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
 			<acme:menu-suboption code="master.menu.administrator.user-accounts" action="/administrator/user-account/list"/>
+			<!-- Notice links -->
+			<acme:menu-suboption code="master.menu.administrator.listNotice" action="/administrator/notice/list"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.shutdown" action="/master/shutdown"/>
 		</acme:menu-option>
@@ -38,6 +43,11 @@
 			<acme:menu-suboption code="master.menu.consumer.favourite-link" action="http://www.example.com/"/>
 		</acme:menu-option>
 	</acme:menu-left>
+
+		<acme:menu-option code="master.menu.authenticated" access="hasRole('Authenticated')">
+			<!-- Notice links -->
+			<acme:menu-suboption code="master.menu.authenticated.listNotice" action="/authenticated/notice/list"/>
+		</acme:menu-option>
 
 	<acme:menu-right>
 		<acme:menu-option code="master.menu.sign-up" action="/anonymous/user-account/create" access="isAnonymous()"/>

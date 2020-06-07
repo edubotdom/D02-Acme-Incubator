@@ -33,12 +33,14 @@ master.menu.anonymous.favourite-link = Favourite link
 master.menu.anonymous.edubotdom-favourite-link = edubotdom's favourite link
 master.menu.anonymous.createBotiaBulletin = Create BotiaBulletin
 master.menu.anonymous.listBotiaBulletin = List BotiaBulletins
+master.menu.anonymous.listNotice = List notices
 
 # master.menu.administrator ###################################################
 
 master.menu.administrator = Administrator
 master.menu.administrator.user-accounts = User accounts
 master.menu.administrator.shutdown = Shut down
+master.menu.administrator.listNotice = List notices
 
 # master.menu.provider ########################################################
 
@@ -49,6 +51,11 @@ master.menu.provider.favourite-link = Favourite link
 
 master.menu.consumer = Consumer
 master.menu.consumer.favourite-link = Favourite link
+
+# master.menu.authenticated ###################################################
+
+master.menu.authenticated = Authenticated
+master.menu.authenticated.listNotice = List notices
 
 # master.menu.user-account ####################################################
 
