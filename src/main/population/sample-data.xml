@@ -17,8 +17,34 @@
 
 	<import resource="conversion-service.xml" />
 
+	<!-- Authenticated Users -->
+
+	<bean name="authenticated1UserAccount" class="acme.framework.entities.UserAccount">
+		<property name="username" value="authenticated1" />
+		<property name="password" value="authenticated1" />
+		<property name="enabled" value="true" />
+		<property name="identity">
+			<bean class="acme.datatypes.UserIdentity">
+				<property name="name" value="Authenticated" />
+				<property name="surname" value="User" />
+				<property name="email" value="authenticated@acme.com" />
+			</bean>
+		</property>
+		
+		<property name="roles">
+			<list>
+				<ref bean="authenticated1Authenticated" />
+			</list>
+		</property>
+	</bean>
+
+	<bean name="authenticated1Authenticated" class="acme.framework.entities.Authenticated">
+		<property name="userAccount" ref="authenticated1UserAccount" />
+	</bean>
+	
+	
 <!-- BOTIABULLETIN'S BEANS-->
-	<bean id="botia_bulletin01" class="acme.entities.botia_bulletins.Botia_bulletin">
+	<bean id="botiaBulletin01" class="acme.entities.botia_bulletins.Botia_bulletin">
 		<property name="moment" value="2018/10/05 05:12"/>
 		<property name="expiring_date" value="2021/03/01 04:20"/>
 		<property name="author" value="Eduardo Miguel Botía Domingo"/>
@@ -27,7 +53,7 @@
 		
 	</bean>
 	
-	<bean id="botia_bulletin02" class="acme.entities.botia_bulletins.Botia_bulletin">
+	<bean id="botiaBulletin02" class="acme.entities.botia_bulletins.Botia_bulletin">
 		<property name="moment" value="2015/11/02 06:11"/>
 		<property name="expiring_date" value="2041/04/09 08:11"/>
 		<property name="author" value="Eduardo Miguel Botía Domingo"/>
@@ -36,7 +62,7 @@
 		
 	</bean>
 	
-	<bean id="botia_bulletin03" class="acme.entities.botia_bulletins.Botia_bulletin">
+	<bean id="botiaBulletin03" class="acme.entities.botia_bulletins.Botia_bulletin">
 		<property name="moment" value="2011/11/04 11:42"/>
 		<property name="expiring_date" value="2041/10/22 21:54"/>
 		<property name="author" value="Eduardo Miguel Botía Domingo"/>
@@ -45,6 +71,48 @@
 		
 	</bean>
 	
+	<!-- Notice's beans -->
 
+	<bean id="notice01" class="acme.entities.notices.Notice">
+		<property name="header" value="http://www.lsi.us.es/imagenes/rotulo-lsi-grande3.jpg" />
+		<property name="title" value="Sample notice 01" />
+		<property name="creation" value="2018/10/02 11:35" />
+		<property name="deadline" value="2022/11/03 15:20" />
+		<property name="body" value="This is a description of a sample notice" />
+		<property name="related">
+			<null />
+		</property>
+	</bean>
+
+	<bean id="notice02" class="acme.entities.notices.Notice">
+		<property name="header" value="http://www.lsi.us.es/imagenes/rotulo-lsi-grande3.jpg" />
+		<property name="title" value="Sample notice 03" />
+		<property name="creation" value="2012/10/02 6:20" />
+		<property name="deadline" value="2025/11/03 21:37" />
+		<property name="body" value="http://www.lsi.us.es/noticias.php" />
+		<property name="related">
+			<null />
+		</property>
+	</bean>
+	
+	<bean id="notice03" class="acme.entities.notices.Notice">
+		<property name="header" value="http://www.lsi.us.es/imagenes/rotulo-lsi-grande3.jpg" />
+		<property name="title" value="Sample notice 02" />
+		<property name="creation" value="2018/10/02 1:21" />
+		<property name="deadline" value="2020/05/03 10:20" />
+		<property name="body" value="This is a description of a sample notice" />
+		<property name="related" value="http://www.lsi.us.es/noticias.php#TFG-3373"/>	
+	</bean>
+
+	<bean id="notice04" class="acme.entities.notices.Notice">
+		<property name="header" value="http://www.lsi.us.es/imagenes/rotulo-lsi-grande3.jpg" />
+		<property name="title" value="Sample notice 04" />
+		<property name="creation" value="2015/10/02 6:20" />
+		<property name="deadline" value="2021/12/08 21:37" />
+		<property name="body" value="http://www.lsi.us.es/noticias.php" />
+		<property name="related">
+			<null />
+		</property>
+	</bean>
 
 </beans>
