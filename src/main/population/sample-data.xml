@@ -250,7 +250,7 @@
 	</bean>
 	
 	<bean id="tool02" class="acme.entities.tools.Tool">
-		<property name="title" value="Sample tool tool 02" />
+		<property name="title" value="Sample tool record 02" />
 		<property name="sector" value="Sector 02" />
 		<property name="inventor" value="Inventor 02" />
 		<property name="description" value="This is a description of a sample technology record " />
@@ -261,7 +261,7 @@
 	</bean>
 	
 	<bean id="tool03" class="acme.entities.tools.Tool">
-		<property name="title" value="Sample technology tool 03" />
+		<property name="title" value="Sample tool record 03" />
 		<property name="sector" value="Sector 01" />
 		<property name="inventor" value="Inventor 03" />
 		<property name="description" value="This is a description of a sample technology record " />
@@ -272,7 +272,7 @@
 	</bean>
 	
 	<bean id="tool04" class="acme.entities.tools.Tool">
-		<property name="title" value="Sample technology tool 04" />
+		<property name="title" value="Sample tool record 04" />
 		<property name="sector" value="Sector 02" />
 		<property name="inventor" value="Inventor 01" />
 		<property name="description" value="This is a description of a sample technology record " />

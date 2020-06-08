@@ -37,6 +37,9 @@ master.menu.anonymous.listNotice = List notices
 master.menu.anonymous.listTechnology = List technologies
 master.menu.anonymous.listTechnologyBySector = List technologies by sector
 master.menu.anonymous.listTechnologyByStars = List technologies by stars
+master.menu.anonymous.listTool = List tools
+master.menu.anonymous.listToolBySector = List tools by sector
+master.menu.anonymous.listToolByStars = List tools by stars
 
 # master.menu.administrator ###################################################
 
@@ -65,6 +68,9 @@ master.menu.authenticated.listNotice = List notices
 master.menu.authenticated.listTechnology = List technologies
 master.menu.authenticated.listTechnologyBySector = List technologies by sector
 master.menu.authenticated.listTechnologyByStars = List technologies by stars
+master.menu.authenticated.listTool = List tools
+master.menu.authenticated.listToolBySector = List tools by sector
+master.menu.authenticated.listToolByStars = List tools by stars
 
 # master.menu.user-account ####################################################
 
