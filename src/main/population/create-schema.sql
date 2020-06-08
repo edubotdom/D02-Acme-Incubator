@@ -20,6 +20,16 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `banner` (
+       `id` integer not null,
+        `version` integer not null,
+        `picture` varchar(255),
+        `slogan` varchar(255),
+        `url` varchar(255),
+        `card_id` integer,
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `botia_bulletin` (
        `id` integer not null,
         `version` integer not null,
@@ -28,6 +38,16 @@
         `moment` datetime(6),
         `text_body` varchar(255),
         `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `card` (
+       `id` integer not null,
+        `version` integer not null,
+        `brand` varchar(255),
+        `cvv` varchar(255),
+        `holder` varchar(255),
+        `number` varchar(255),
         primary key (`id`)
     ) engine=InnoDB;
 
@@ -178,6 +198,11 @@ create index IDXnr284tes3x8hnd3h716tmb3fr on `challenge` (`deadline`);
        add constraint FK_h52w0f3wjoi68b63wv9vwon57 
        foreign key (`user_account_id`) 
        references `user_account` (`id`);
+
+    alter table `banner` 
+       add constraint `FKmlx88rwhns1ceiyilf11mre2l` 
+       foreign key (`card_id`) 
+       references `card` (`id`);
 
     alter table `consumer` 
        add constraint FK_6cyha9f1wpj0dpbxrrjddrqed 

@@ -369,4 +369,20 @@
 		<property name="rookieReward" value="1€" />
 	</bean>
 
+	<!-- Cards' beans -->
+	<bean id="card01" class="acme.entities.cards.Card">
+		<property name="holder" value="Holder 01" />
+		<property name="number" value="5279970201047963" />
+		<property name="brand" value="Brand 01" />
+		<property name="cvv" value="123" />
+	</bean>
+
+	<!-- Banners' beans -->
+	<bean id="banner01" class="acme.entities.banners.Banner">
+		<property name="picture" value="http://www.lsi.us.es/imagenes/rotulo-lsi-grande3.jpg" />
+		<property name="slogan" value="Banner 01" />
+		<property name="url" value="http://www.lsi.us.es/" />
+		<property name="card" ref="card01" />
+	</bean>
+
 </beans>
