@@ -282,4 +282,91 @@
 		<property name="stars" value="4.5" />
 	</bean>
 
+
+	<!--Challenges' beans -->
+	
+	<bean id="challenge01" class="acme.entities.challenges.Challenge">
+		<property name="title" value="Challenge 01" />
+		<property name="deadline" value="2020/12/10 00:00" />
+		<property name="description" value="Singing challenge" />
+		<property name="expertGoal" value="Sing in public" />
+		<property name="expertReward" value="10€" />
+		<property name="averageGoal" value="Sing to your friends" />
+		<property name="averageReward" value="5€" />
+		<property name="rookieGoal" value="Sing in your bathroom" />
+		<property name="rookieReward" value="1€" />
+	</bean>
+
+	<bean id="challenge02" class="acme.entities.challenges.Challenge">
+		<property name="title" value="Challenge 02" />
+		<property name="deadline" value="2022/12/10 00:00" />
+		<property name="description" value="Jumping challenge" />
+		<property name="expertGoal" value="Jump in public" />
+		<property name="expertReward" value="10€" />
+		<property name="averageGoal" value="Jump to your friends" />
+		<property name="averageReward" value="5€" />
+		<property name="rookieGoal" value="Jump in your bathroom" />
+		<property name="rookieReward" value="1€" />
+	</bean>
+
+	<bean id="challenge03" class="acme.entities.challenges.Challenge">
+		<property name="title" value="Challenge 03" />
+		<property name="deadline" value="2021/12/10 00:00" />
+		<property name="description" value="Dabbing challenge" />
+		<property name="expertGoal" value="Dab on them haters" />
+		<property name="expertReward" value="10€" />
+		<property name="averageGoal" value="Dab on your dog" />
+		<property name="averageReward" value="5€" />
+		<property name="rookieGoal" value="Dab to yourself" />
+		<property name="rookieReward" value="1€" />
+	</bean>
+
+	<bean id="challenge04" class="acme.entities.challenges.Challenge">
+		<property name="title" value="Challenge 04" />
+		<property name="deadline" value="2021/12/10 00:00" />
+		<property name="description" value="Challenge 4" />
+		<property name="expertGoal" value="Dab on them haters" />
+		<property name="expertReward" value="10€" />
+		<property name="averageGoal" value="Dab on your dog" />
+		<property name="averageReward" value="5€" />
+		<property name="rookieGoal" value="Dab to yourself" />
+		<property name="rookieReward" value="1€" />
+	</bean>
+
+	<bean id="challenge05" class="acme.entities.challenges.Challenge">
+		<property name="title" value="Challenge 05" />
+		<property name="deadline" value="2021/12/10 00:00" />
+		<property name="description" value="Challenge 5" />
+		<property name="expertGoal" value="Dab on them haters" />
+		<property name="expertReward" value="10€" />
+		<property name="averageGoal" value="Dab on your dog" />
+		<property name="averageReward" value="5€" />
+		<property name="rookieGoal" value="Dab to yourself" />
+		<property name="rookieReward" value="1€" />
+	</bean>
+
+	<bean id="challenge06" class="acme.entities.challenges.Challenge">
+		<property name="title" value="Challenge 06" />
+		<property name="deadline" value="2021/12/10 00:00" />
+		<property name="description" value="Challenge 6" />
+		<property name="expertGoal" value="Dab on them haters" />
+		<property name="expertReward" value="10€" />
+		<property name="averageGoal" value="Dab on your dog" />
+		<property name="averageReward" value="5€" />
+		<property name="rookieGoal" value="Dab to yourself" />
+		<property name="rookieReward" value="1€" />
+	</bean>
+
+	<bean id="challenge07" class="acme.entities.challenges.Challenge">
+		<property name="title" value="Challenge 07" />
+		<property name="deadline" value="2021/12/10 00:00" />
+		<property name="description" value="Challenge 7" />
+		<property name="expertGoal" value="Dab on them haters" />
+		<property name="expertReward" value="10€" />
+		<property name="averageGoal" value="Dab on your dog" />
+		<property name="averageReward" value="5€" />
+		<property name="rookieGoal" value="Dab to yourself" />
+		<property name="rookieReward" value="1€" />
+	</bean>
+
 </beans>

@@ -68,7 +68,9 @@
 			<!-- Tools' links -->
 			<acme:menu-suboption code="master.menu.authenticated.listTool" action="/authenticated/tool/list"/>
 			<acme:menu-suboption code="master.menu.authenticated.listToolBySector" action="/authenticated/tool/list_by_sector"/>			
-			<acme:menu-suboption code="master.menu.authenticated.listToolByStars" action="/authenticated/tool/list_by_stars"/>		
+			<acme:menu-suboption code="master.menu.authenticated.listToolByStars" action="/authenticated/tool/list_by_stars"/>
+			<!-- Challenges' links -->
+			<acme:menu-suboption code="master.menu.authenticated.listChallenges" action="/authenticated/challenge/list"/>	
 		</acme:menu-option>
 
 	<acme:menu-right>
