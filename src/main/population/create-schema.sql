@@ -58,6 +58,15 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `customization` (
+       `id` integer not null,
+        `version` integer not null,
+        `sectors` varchar(255),
+        `spam` varchar(255),
+        `threshold` double precision,
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `inquiry` (
        `id` integer not null,
         `version` integer not null,

@@ -31,6 +31,8 @@
 
     drop table if exists `consumer`;
 
+    drop table if exists `customization`;
+
     drop table if exists `inquiry`;
 
     drop table if exists `notice`;
