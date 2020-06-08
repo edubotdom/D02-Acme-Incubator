@@ -4,7 +4,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>616</x>
+      <x>609</x>
       <y>168</y>
       <w>168</w>
       <h>42</h>
@@ -18,7 +18,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>637</x>
+      <x>630</x>
       <y>203</y>
       <w>70</w>
       <h>77</h>
@@ -29,7 +29,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>266</x>
+      <x>259</x>
       <y>98</y>
       <w>154</w>
       <h>84</h>
@@ -49,7 +49,7 @@ bg=orange
   <element>
     <id>UMLNote</id>
     <coordinates>
-      <x>266</x>
+      <x>259</x>
       <y>35</y>
       <w>168</w>
       <h>42</h>
@@ -62,7 +62,7 @@ bg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>336</x>
+      <x>329</x>
       <y>70</y>
       <w>21</w>
       <h>42</h>
@@ -74,7 +74,7 @@ bg=blue</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>686</x>
+      <x>679</x>
       <y>203</y>
       <w>70</w>
       <h>77</h>
@@ -85,7 +85,7 @@ bg=blue</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>861</x>
+      <x>854</x>
       <y>175</y>
       <w>70</w>
       <h>42</h>
@@ -100,7 +100,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>861</x>
+      <x>854</x>
       <y>119</y>
       <w>70</w>
       <h>42</h>
@@ -115,7 +115,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>861</x>
+      <x>854</x>
       <y>224</y>
       <w>70</w>
       <h>42</h>
@@ -130,7 +130,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>777</x>
+      <x>770</x>
       <y>147</y>
       <w>98</w>
       <h>56</h>
@@ -141,7 +141,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>777</x>
+      <x>770</x>
       <y>182</y>
       <w>98</w>
       <h>21</h>
@@ -152,7 +152,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>777</x>
+      <x>770</x>
       <y>182</y>
       <w>98</w>
       <h>63</h>
@@ -163,7 +163,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>266</x>
+      <x>259</x>
       <y>196</y>
       <w>154</w>
       <h>49</h>
@@ -179,7 +179,7 @@ bg=orange</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>539</x>
+      <x>532</x>
       <y>266</y>
       <w>140</w>
       <h>63</h>
@@ -194,7 +194,7 @@ Provider
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>700</x>
+      <x>693</x>
       <y>266</y>
       <w>147</w>
       <h>63</h>
@@ -209,7 +209,7 @@ Consumer
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>98</x>
+      <x>91</x>
       <y>98</y>
       <w>154</w>
       <h>56</h>
@@ -226,7 +226,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>98</x>
+      <x>91</x>
       <y>168</y>
       <w>154</w>
       <h>91</h>
@@ -246,7 +246,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>98</x>
+      <x>91</x>
       <y>273</y>
       <w>154</w>
       <h>63</h>
@@ -263,7 +263,7 @@ bg=yellow</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>574</x>
+      <x>567</x>
       <y>0</y>
       <w>238</w>
       <h>91</h>
@@ -285,7 +285,7 @@ UserAccount
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>693</x>
+      <x>686</x>
       <y>84</y>
       <w>49</w>
       <h>98</h>
@@ -299,7 +299,7 @@ has v</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>7</x>
+      <x>0</x>
       <y>357</y>
       <w>238</w>
       <h>91</h>
@@ -321,7 +321,7 @@ Botia_bulletin
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>7</x>
+      <x>0</x>
       <y>462</y>
       <w>238</w>
       <h>105</h>
@@ -344,7 +344,7 @@ Notice
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>7</x>
+      <x>0</x>
       <y>581</y>
       <w>238</w>
       <h>105</h>
@@ -367,7 +367,7 @@ Inquiry
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>770</x>
+      <x>763</x>
       <y>371</y>
       <w>238</w>
       <h>105</h>
@@ -390,7 +390,7 @@ Overture
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>266</x>
+      <x>259</x>
       <y>560</y>
       <w>364</w>
       <h>126</h>
@@ -414,7 +414,7 @@ Tool
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>266</x>
+      <x>259</x>
       <y>427</y>
       <w>364</w>
       <h>126</h>
@@ -438,7 +438,7 @@ Technology
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>7</x>
+      <x>0</x>
       <y>700</y>
       <w>238</w>
       <h>133</h>
@@ -464,7 +464,7 @@ Challenge
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>266</x>
+      <x>259</x>
       <y>700</y>
       <w>147</w>
       <h>77</h>
@@ -475,6 +475,50 @@ Customization
 + spam: String {NotBlank}
 + sectors: String {NotBlank}
 + threshold: Double {Range(min = 0, max = 100), NotNull}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>770</x>
+      <y>497</y>
+      <w>147</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Banner
+--
++ picture: String {NotBlank, URL}
++ slogan: String {NotBlank}
++ url: Double {URL, NotBlank}</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>840</x>
+      <y>567</y>
+      <w>21</w>
+      <h>63</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>770</x>
+      <y>616</y>
+      <w>217</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Card
+--
++ holder: String {NotBlank}
++ number: String {CreditCardNumber, NotBlank}
++ brand: String {NotBlank}
++ cvv: String {NotBlank, Lenght(min=3,max=3)}</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>

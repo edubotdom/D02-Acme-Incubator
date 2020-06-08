@@ -11,6 +11,10 @@
        drop 
        foreign key FK_h52w0f3wjoi68b63wv9vwon57;
 
+    alter table `banner` 
+       drop 
+       foreign key `FKmlx88rwhns1ceiyilf11mre2l`;
+
     alter table `consumer` 
        drop 
        foreign key FK_6cyha9f1wpj0dpbxrrjddrqed;
@@ -25,7 +29,11 @@
 
     drop table if exists `authenticated`;
 
+    drop table if exists `banner`;
+
     drop table if exists `botia_bulletin`;
+
+    drop table if exists `card`;
 
     drop table if exists `challenge`;
 
