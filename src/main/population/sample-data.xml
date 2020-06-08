@@ -191,4 +191,95 @@
 		<property name="contact" value="incubator3@acme.com" />
 	</bean>
 
+	<!-- Technologies' beans -->
+	<bean id="technology01" class="acme.entities.technologies.Technology">
+		<property name="title" value="Sample technology record 01" />
+		<property name="sector" value="Sector 01" />
+		<property name="inventor" value="Inventor 01" />
+		<property name="description" value="This is a description of a sample technology record " />
+		<property name="website" value="http://www.lsi.us.es/" />
+		<property name="contact" value="incubator1@acme.com" />
+		<property name="source" value="open-source" />
+		<property name="stars" value="5" />
+	</bean>
+	
+	<bean id="technology02" class="acme.entities.technologies.Technology">
+		<property name="title" value="Sample technology record 02" />
+		<property name="sector" value="Sector 02" />
+		<property name="inventor" value="Inventor 02" />
+		<property name="description" value="This is a description of a sample technology record " />
+		<property name="website" value="http://www.lsi.us.es/" />
+		<property name="contact" value="incubator2@acme.com" />
+		<property name="source" value="open-source" />
+		<property name="stars" value="4.5" />
+	</bean>
+	
+	<bean id="technology03" class="acme.entities.technologies.Technology">
+		<property name="title" value="Sample technology record 03" />
+		<property name="sector" value="Sector 01" />
+		<property name="inventor" value="Inventor 03" />
+		<property name="description" value="This is a description of a sample technology record " />
+		<property name="website" value="http://www.lsi.us.es/" />
+		<property name="contact" value="incubator3@acme.com" />
+		<property name="source" value="closed-source" />
+		<property name="stars" value="2" />
+	</bean>
+	
+	<bean id="technology04" class="acme.entities.technologies.Technology">
+		<property name="title" value="Sample technology record 04" />
+		<property name="sector" value="Sector 02" />
+		<property name="inventor" value="Inventor 01" />
+		<property name="description" value="This is a description of a sample technology record " />
+		<property name="website" value="http://www.lsi.us.es/" />
+		<property name="contact" value="incubator4@acme.com" />
+		<property name="source" value="closed-source" />
+		<property name="stars" value="4.5" />
+	</bean>
+	
+	<!-- Tools' beans -->
+
+	<bean id="tool01" class="acme.entities.tools.Tool">
+		<property name="title" value="Sample tool record 01" />
+		<property name="sector" value="Sector 01" />
+		<property name="inventor" value="Inventor 01" />
+		<property name="description" value="This is a description of a sample technology record " />
+		<property name="website" value="http://www.lsi.us.es/" />
+		<property name="contact" value="incubator1@acme.com" />
+		<property name="source" value="open-source" />
+		<property name="stars" value="5" />
+	</bean>
+	
+	<bean id="tool02" class="acme.entities.tools.Tool">
+		<property name="title" value="Sample tool tool 02" />
+		<property name="sector" value="Sector 02" />
+		<property name="inventor" value="Inventor 02" />
+		<property name="description" value="This is a description of a sample technology record " />
+		<property name="website" value="http://www.lsi.us.es/" />
+		<property name="contact" value="incubator2@acme.com" />
+		<property name="source" value="open-source" />
+		<property name="stars" value="4.5" />
+	</bean>
+	
+	<bean id="tool03" class="acme.entities.tools.Tool">
+		<property name="title" value="Sample technology tool 03" />
+		<property name="sector" value="Sector 01" />
+		<property name="inventor" value="Inventor 03" />
+		<property name="description" value="This is a description of a sample technology record " />
+		<property name="website" value="http://www.lsi.us.es/" />
+		<property name="contact" value="incubator3@acme.com" />
+		<property name="source" value="closed-source" />
+		<property name="stars" value="2" />
+	</bean>
+	
+	<bean id="tool04" class="acme.entities.tools.Tool">
+		<property name="title" value="Sample technology tool 04" />
+		<property name="sector" value="Sector 02" />
+		<property name="inventor" value="Inventor 01" />
+		<property name="description" value="This is a description of a sample technology record " />
+		<property name="website" value="http://www.lsi.us.es/" />
+		<property name="contact" value="incubator4@acme.com" />
+		<property name="source" value="closed-source" />
+		<property name="stars" value="4.5" />
+	</bean>
+
 </beans>

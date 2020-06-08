@@ -34,6 +34,9 @@ master.menu.anonymous.edubotdom-favourite-link = Enlace favorito de edubotdom
 master.menu.anonymous.createBotiaBulletin = Crear BotiaBulletin
 master.menu.anonymous.listBotiaBulletin = Listar BotiaBulletin
 master.menu.anonymous.listNotice = Listar avisos
+master.menu.anonymous.listTechnology = Listar registros de tecnologías
+master.menu.anonymous.listTechnologyBySector = Registros de tecnologías por sector
+master.menu.anonymous.listTechnologyByStars = Registros de tecnologías por valoración
 
 # master.menu.administrator ###################################################
 
@@ -58,6 +61,10 @@ master.menu.authenticated = Autenticado
 master.menu.authenticated.listNotice = Listar avisos
 master.menu.authenticated.listInquiry = Listar solicitudes
 master.menu.authenticated.listOverture = Listar propuestas
+master.menu.authenticated.listNotice = Listar avisos
+master.menu.authenticated.listTechnology = Listar registros de tecnologías
+master.menu.authenticated.listTechnologyBySector = Registros de tecnologías por sector
+master.menu.authenticated.listTechnologyByStars = Registros de tecnologías por valoración
 
 # master.menu.user-account ####################################################
 
