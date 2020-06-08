@@ -87,6 +87,34 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `technology` (
+       `id` integer not null,
+        `version` integer not null,
+        `contact` varchar(255),
+        `description` varchar(255),
+        `inventor` varchar(255),
+        `sector` varchar(255),
+        `source` varchar(255),
+        `stars` double precision,
+        `title` varchar(255),
+        `website` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `tool` (
+       `id` integer not null,
+        `version` integer not null,
+        `contact` varchar(255),
+        `description` varchar(255),
+        `inventor` varchar(255),
+        `sector` varchar(255),
+        `source` varchar(255),
+        `stars` double precision,
+        `title` varchar(255),
+        `website` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `user_account` (
        `id` integer not null,
         `version` integer not null,

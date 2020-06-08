@@ -25,6 +25,14 @@
 			<acme:menu-suboption code="master.menu.anonymous.listBotiaBulletin" action="/anonymous/botia_bulletin/list"/>
 			<!-- Notice links -->
 			<acme:menu-suboption code="master.menu.anonymous.listNotice" action="/anonymous/notice/list"/>
+			<!-- Technologies' links -->
+			<acme:menu-suboption code="master.menu.anonymous.listTechnology" action="/anonymous/technology/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.listTechnologyBySector" action="/anonymous/technology/list_by_sector"/>			
+			<acme:menu-suboption code="master.menu.anonymous.listTechnologyByStars" action="/anonymous/technology/list_by_stars"/>
+			<!-- Tools' links -->
+			<acme:menu-suboption code="master.menu.anonymous.listTool" action="/anonymous/tool/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.listToolBySector" action="/anonymous/tool/list_by_sector"/>			
+			<acme:menu-suboption code="master.menu.anonymous.listToolByStars" action="/anonymous/tool/list_by_stars"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
@@ -50,7 +58,17 @@
 			<!-- Inquiry links -->
 			<acme:menu-suboption code="master.menu.authenticated.listInquiry" action="/authenticated/inquiry/list"/>
 			<!-- Overture links -->
-			<acme:menu-suboption code="master.menu.authenticated.listOverture" action="/authenticated/overture/list"/>							
+			<acme:menu-suboption code="master.menu.authenticated.listOverture" action="/authenticated/overture/list"/>	
+			<!-- Notice links -->
+			<acme:menu-suboption code="master.menu.authenticated.listNotice" action="/authenticated/notice/list"/>
+			<!-- Technologies' links -->
+			<acme:menu-suboption code="master.menu.authenticated.listTechnology" action="/authenticated/technology/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.listTechnologyBySector" action="/authenticated/technology/list_by_sector"/>			
+			<acme:menu-suboption code="master.menu.authenticated.listTechnologyByStars" action="/authenticated/technology/list_by_stars"/>						
+			<!-- Tools' links -->
+			<acme:menu-suboption code="master.menu.authenticated.listTool" action="/authenticated/tool/list"/>
+			<acme:menu-suboption code="master.menu.authenticated.listToolBySector" action="/authenticated/tool/list_by_sector"/>			
+			<acme:menu-suboption code="master.menu.authenticated.listToolByStars" action="/authenticated/tool/list_by_stars"/>		
 		</acme:menu-option>
 
 	<acme:menu-right>
