@@ -71,6 +71,7 @@ master.menu.authenticated.listTechnologyByStars = List technologies by stars
 master.menu.authenticated.listTool = List tools
 master.menu.authenticated.listToolBySector = List tools by sector
 master.menu.authenticated.listToolByStars = List tools by stars
+master.menu.authenticated.listChallenges = List challenges
 
 # master.menu.user-account ####################################################
 

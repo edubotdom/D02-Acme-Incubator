@@ -27,6 +27,8 @@
 
     drop table if exists `botia_bulletin`;
 
+    drop table if exists `challenge`;
+
     drop table if exists `consumer`;
 
     drop table if exists `inquiry`;

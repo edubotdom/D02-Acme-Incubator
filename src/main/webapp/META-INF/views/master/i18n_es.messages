@@ -71,6 +71,7 @@ master.menu.authenticated.listTechnologyByStars = Registros de tecnologías por 
 master.menu.authenticated.listTool = Listar herramientas
 master.menu.authenticated.listToolBySector = Herramientas por sector
 master.menu.authenticated.listToolByStars = Herramientas por valoración
+master.menu.authenticated.listChallenges = Listar desafíos
 
 # master.menu.user-account ####################################################
 
