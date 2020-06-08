@@ -73,4 +73,15 @@
 		<property name="userAccount" ref="administratorUserAccount" />
 	</bean>
 	
+	<!-- Customization's beans -->
+
+	<bean id="customization01" class="acme.entities.customization.Customization">
+		<property name="spam"
+			value="sex,hardcore,viagra,cialis,nigeria,you've won,million dollar,
+		sexo,duro,viagra,cialis,nigeria,has ganado,millón de euros" />
+		<property name="threshold" value="1.0" />
+		<property name="sectors" value="Technology, Science, Arts, Business, Health" />
+	</bean>
+	
+	
 </beans>

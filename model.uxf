@@ -435,4 +435,46 @@ Technology
 </panel_attributes>
     <additional_attributes/>
   </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>7</x>
+      <y>700</y>
+      <w>238</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Challenge
+--
++ title: String {NotBlank}
++ deadline: Date
++ description: String {NotBlank}
++ expertGoal: String {NotBlank}
++ expertReward: Money {Valid}
++ averageGoal: String {NotBlank}
++ averageReward: Money {Valid}
++ rookieGoal: String {NotBlank}
++ rookieReward: Money {Valid}
+
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>266</x>
+      <y>700</y>
+      <w>147</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Entity&gt;&gt;
+Customization
+--
++ spam: String {NotBlank}
++ sectors: String {NotBlank}
++ threshold: Double {Range(min = 0, max = 100), NotNull}</panel_attributes>
+    <additional_attributes/>
+  </element>
 </diagram>
