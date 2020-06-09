@@ -39,8 +39,11 @@ public class Dashboard implements Serializable {
 	List<String>				toolSectors;
 	List<Long>					numberToolsBySector;
 
-	Double						openClosedSourceRatioTechnologies;
-	Double						openClosedSourceRatioTools;
+	Double						openSourceRatioTechnologies;
+	Double						closedSourceRatioTechnologies;
+
+	Double						openSourceRatioTools;
+	Double						closedSourceRatioTools;
 
 	// Derived attributes ------------------------------------------------------
 

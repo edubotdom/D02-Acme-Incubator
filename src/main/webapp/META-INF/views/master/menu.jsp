@@ -41,6 +41,8 @@
 			<acme:menu-suboption code="master.menu.administrator.listNotice" action="/administrator/notice/list"/>
 			<!-- Customizarion links -->
 			<acme:menu-suboption code="master.menu.administrator.customization" action="/administrator/customization/list"/>
+			<!-- Dashboard link -->
+			<acme:menu-suboption code="master.menu.administrator.dashboard" action="/administrator/dashboard/show"/>
 			<acme:menu-separator/>
 			<acme:menu-suboption code="master.menu.administrator.shutdown" action="/master/shutdown"/>
 		</acme:menu-option>
